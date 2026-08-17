@@ -43,7 +43,7 @@ if st.button("顯示圖表"):
         ax.set_title("Sales for month")
         ax.set_xlabel('month')
         ax.set_ylabel('$')
-        plt.set_xticks(rotation = 45)
+        plt.xticks(rotation = 45)
         st.pyplot(fig)
 
     #長條圖
